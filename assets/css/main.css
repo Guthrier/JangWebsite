@@ -1820,12 +1820,12 @@ input, select, textarea {
 	}
 
 		ul.icons li {
-			display: inline-flex;
+			display: inline-block;
 			padding-left: 0;
 		}
 
 		ul.icons a {
-			display: inline-flex;
+			display: inline-block;
 			width: 2em;
 			height: 2em;
 			line-height: 2em;
