@@ -2094,19 +2094,29 @@ input, select, textarea {
 					color: #fff;
 				}
 
-	#logo {
+#logo {
 		position: relative;
 		margin: 1.75em 1.5em 1.5em 1.5em;
 		min-height: 48px;
 		cursor: default;
+		display: block;
+		align-items:center;
 	}
+#logo img {
+    width: 88px; /* Adjust the width as needed */
+    height: 88px; /* Adjust the height as needed */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px; /* Add this line and adjust the margin as needed */
+}
 
 		#logo h1 {
 			position: relative;
 			color: #fff;
 			font-weight: 600;
 			font-size: 1em;
-			line-height: 1em;
+			line-height: 1.25em;
+			margin: 0;
 		}
 
 		#logo p {
@@ -2115,7 +2125,7 @@ input, select, textarea {
 			font-size: 0.6em;
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
-			margin: 0.5em 0 0 0;
+			margin: 0;
 		}
 
 		#logo .image {
@@ -2137,7 +2147,7 @@ input, select, textarea {
 #nav ul li a {
     display: flex;
     align-items: center;
-    padding: 0.5em 1.5em 0.5em 1.5em;
+    padding: 0.5em 1.5em;
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
     outline: 0;
@@ -2149,13 +2159,14 @@ input, select, textarea {
 }
 
 #nav ul li a img {
-    width: 30px; /* Adjust the width as needed */
-    height: 30px; /* Adjust the height as needed */
+    width: 24px; /* Adjust the width as needed */
+    height: 24px; /* Adjust the height as needed */
     margin-right: 10px; /* Add this line and adjust the margin as needed */
 }
 
 #nav ul li a span {
     font-size: 0.8em;
+
 }
 
 #nav ul li a span:before {
@@ -2176,10 +2187,6 @@ input, select, textarea {
 #nav ul li a.active span:before {
     color: #F0712C;
 }
-
-					#nav ul li a.active span:before {
-						color: #F0712C;
-					}
 
 /* Footer */
 
